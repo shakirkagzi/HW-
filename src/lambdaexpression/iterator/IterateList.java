@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 public class IterateList {
     public static void main(String[] args) {
-        List<String> electronicsList = Arrays.asList("lambda.expression.anonymous.Laptop", "Tablet", "Television", "Monitor");
+        List<String> electronicsList = Arrays.asList("Laptop", "Tablet", "Television", "Monitor");
         System.out.println("Classic enhanced for loop");
         for (String items : electronicsList) {
             System.out.println(items);
